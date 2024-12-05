@@ -1,0 +1,95 @@
+@import "~ag-grid-community/styles/ag-grid.css";
+@import "~ag-grid-community/styles/ag-theme-alpine.css";
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+
+mat-expansion-panel {
+  width: 1000px;
+  margin: 10px;
+}
+
+mat-accordion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+mat-accordion {
+  width: 500px;
+  height: auto;
+}
+
+.connectButtonDiv {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.connectContent {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  color: #1f1fec;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.header-left {
+  text-align: left;
+  align-items: center;
+  display: flex;
+}
+
+.header-right {
+  text-align: right;
+  flex-grow: 1;
+  text-align: right;
+  /* Ensures right alignment */
+  font-size: xx-small;
+  color: #b2b2c2;
+}
+
+.removeButton {
+  text-align: right;
+  flex-grow: 1;
+  text-align: right;
+  /* Ensures right alignment */
+  margin-top: 20px;
+
+}
+
+.icon {
+  padding: 4px;
+}
+
+.ag-theme-alpine {
+  height: 100%;
+  width: 100%;
+}
+
+.ag-grid-angular {
+  margin: 0;
+}
+
+.scrollable-content {
+  max-height: 600px; /* Set the maximum height to whatever is appropriate */
+  overflow-y: auto;  /* Enables vertical scrolling when content overflows */
+}
+
+.ag-overlay-loading-center {
+  font-size: 18px;
+  color: #4caf50;
+}
